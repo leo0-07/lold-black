@@ -49,13 +49,13 @@
                                                 </button>
                                             </div>
                                             <div class="modal-body">
-                                                Quer mesmo escluir "<b>{{ $nota->pchave }}</b>" das anotações?
+                                                Quer mesmo excluir "<b>{{ $nota->pchave }}</b>" das anotações?
                                             </div>
-                                            <div class="modal-footer">
-						 <a href="{{ route('notas.index') }}" class="btn btn-secondary" data-dismiss="modal">Não</a>
-                                                <a href="{{ route('notas.index') }}"class="btn btn-danger">Sim apagar anotação</a>
+						<div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+                                                <button type="submit" class="btn btn-danger">Sim excluir anotação!</button>
                                             </div>
-                                        </div>
+					</div>
                                     </form>
                                 </div>
                             </div>
