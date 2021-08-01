@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title') Editar anotação @endsection
-<a href="http://www.brdsoft.com.br"><img src="/logo-azul-com-texto.png"style="width:120px;height:60px;"></a><br>
+<br><a href="http://www.brdsoft.com.br"><img src="/logo-azul-com-texto.png"style="width:120px;height:60px;"></a><br>
 @section('content')
     <form action="{{ route('notas.update', $nota->id) }}" method="post">
         @csrf

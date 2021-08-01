@@ -3,7 +3,7 @@
 @section('title') Anotações old black web @endsection
 
 @section('content')
-<a href="http://www.brdsoft.com.br"><img src="/logo-azul-com-texto.png"style="width:240px;height:120px;"></a><br>
+<br><a href="http://www.brdsoft.com.br"><img src="/logo-azul-com-texto.png"style="width:240px;height:120px;"></a><br>
 <h3>Old black web</h3>
 <p>Sistema para anotações e apontamentos.</p>
     <div class="row">

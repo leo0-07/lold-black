@@ -3,6 +3,7 @@
 @section('title') Criando nova anotação @endsection
 
 @section('content')
+<br><a href="http://www.brdsoft.com.br"><img src="/logo-azul-com-texto.png"style="width:120px;height:60px;"></a><br>
     <form action="{{ route('notas.store') }}" method="post">
         @csrf
         <div class="card card-default">

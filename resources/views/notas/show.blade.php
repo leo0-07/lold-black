@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title') Ver anoração @endsection
-<a href="http://www.brdsoft.com.br"><img src="/logo-azul-com-texto.png"style="width:120px;height:60px;"></a><br>
+<br><a href="http://www.brdsoft.com.br"><img src="/logo-azul-com-texto.png"style="width:120px;height:60px;"></a><br>
 @section('content')
     <div class="row">
         <div class="col-md-12">
